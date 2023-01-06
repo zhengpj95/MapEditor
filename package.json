@@ -1,0 +1,17 @@
+{
+	"name": "mapeditor",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ./main.js",
+		"build": "egret clean ./html_egret"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^18.11.18",
+		"electron": "^22.0.0"
+	}
+}
